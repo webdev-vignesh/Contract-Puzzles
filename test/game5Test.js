@@ -13,6 +13,7 @@ describe('Game5', function () {
     const { game } = await loadFixture(deployContractAndSetVariables);
 
     // good luck
+    // creating random addresses and checking with threshold
     const threshold = '0x00FfFFfFFFfFFFFFfFfFfffFFFfffFfFffFfFFFf';
     let validAddress = false;
     let wallet;
